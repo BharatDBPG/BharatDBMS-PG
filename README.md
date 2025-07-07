@@ -37,5 +37,5 @@ An advanced PostgreSQL cluster discovery script for Debian-based systems. It lis
 
 For research collaboration, technical queries, or project access requests, please reach out to:
 
-- 📧 `bharatdb@cdac.in` - Official mail
-- 📧 `solaimuruganv@cdac,in` - V.Solaimurugan ( Scientist E, CDAC ) 
+- 📧 `[bharatdb@cdac.in](bharatdb@cdac.in)` - Official mail
+- 📧 `[solaimuruganv@cdac.in](solaimuruganv@cdac.in)` - V.Solaimurugan ( Scientist E, CDAC ) 
