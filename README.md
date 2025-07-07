@@ -15,22 +15,22 @@ Local language support has been successfully integrated into the application to 
 
 Repository Link : [`(https://github.com/BharatDBPG/SHAKTI_PG_ADMIN.git)`](https://github.com/BharatDBPG/SHAKTI_PG_ADMIN.git)
 
-### DB-Boost_first_demo
+### 🚀 DB-Boost_first_demo
 DB-Boost is an intelligent, AI-driven optimization platform that automatically tunes your PostgreSQL database configuration parameters to achieve peak performance. DB-Boost adapts to your specific environment—workload patterns, use cases, and hardware specifications—to deliver optimal results every time.
 
 Repository Link : [`(https://github.com/BharatDBPG/SHAKTI_PG_ADMIN.git)`](https://github.com/BharatDBPG/SHAKTI_PG_ADMIN.git)
 
-### ChatDB
+### 💬 ChatDB
 An AI enabled chatbot that lets users communicate with their databases in natural languages. It connects with the database and users can seamlessly converse with their database to receive insights and visualization using natural language.
 
 Repository Link : [`(https://github.com/BharatDBPG/SHAKTI_PG_ADMIN.git)`](https://github.com/BharatDBPG/SHAKTI_PG_ADMIN.git)
 
-### ChatDB_integrated_pgAdmin
+### 🧩 ChatDB_integrated_pgAdmin
 We have integrated ChatDB into the pgAdmin to let users communicate with their selected database within pgAdmin using natural language. We have provided a separate tool in pgAdmin of ChatDB which works on its own workspace.
 
 Repository Link : [`(https://github.com/BharatDBPG/SHAKTI_PG_ADMIN.git)`](https://github.com/BharatDBPG/SHAKTI_PG_ADMIN.git)
 
-### `multilingual_fuzzy_match`
+### 🌐🔍`multilingual_fuzzy_match`
 A PostgreSQL extension enabling multilingual fuzzy matching and transliteration for Indian languages. Ideal for use cases such as identity resolution, deduplication, and semantic search across diverse scripts.
 
 Repository Link : [`(https://github.com/BharatDBPG/multilingual_fuzzy_match.git)`](https://github.com/BharatDBPG/multilingual_fuzzy_match.git)
