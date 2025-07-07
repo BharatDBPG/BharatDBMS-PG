@@ -59,7 +59,7 @@ Repository Link : [`(https://github.com/BharatDBPG/Postgres17.0.git)`](https://g
 Pg_dbscanner is a PostgreSQL extension that analyzes your table schema and intelligently recommends optimal index types based on column data types — helping you boost performance without manual guesswork.
 Built using C and integrated directly into PostgreSQL, this extension provides smart index suggestions for faster query execution, especially on large or growing datasets.
 
-Repository Link : [`(https://github.com/BharatDBPG/Postgres17.0.git)`](https://github.com/BharatDBPG/Pg_dbscanner.git)
+Repository Link : [`(https://github.com/BharatDBPG/Pg_dbscanner.git)`](https://github.com/BharatDBPG/Pg_dbscanner.git)
 
 ### 📨 Contact
 
