@@ -14,6 +14,26 @@ Shakti pgAdmin is a database management tool that offers local language support 
 
 Repository Link : [`(https://github.com/BharatDBPG/SHAKTI_PG_ADMIN.git)`](https://github.com/BharatDBPG/SHAKTI_PG_ADMIN.git)
 
+### 🛠️ Local Language Integration
+Local language support has been successfully integrated into the application to enhance accessibility and improve user experience for a broader audience. Eight Indian regional languages—Hindi, Kannada, Tamil, Telugu, Marathi, Gujarati, Bengali, and Punjabi—have been added, allowing users to interact with the interface in their native languages. This involved configuring translation settings, managing .po and .mo files, and updating language catalogs to ensure accurate and context-appropriate translations.
+
+Repository Link : [`(https://github.com/BharatDBPG/SHAKTI_PG_ADMIN.git)`](https://github.com/BharatDBPG/SHAKTI_PG_ADMIN.git)
+
+### DB-Boost_first_demo
+DB-Boost is an intelligent, AI-driven optimization platform that automatically tunes your PostgreSQL database configuration parameters to achieve peak performance. DB-Boost adapts to your specific environment—workload patterns, use cases, and hardware specifications—to deliver optimal results every time.
+
+Repository Link : [`(https://github.com/BharatDBPG/SHAKTI_PG_ADMIN.git)`](https://github.com/BharatDBPG/SHAKTI_PG_ADMIN.git)
+
+### ChatDB
+An AI enabled chatbot that lets users communicate with their databases in natural languages. It connects with the database and users can seamlessly converse with their database to receive insights and visualization using natural language.
+
+Repository Link : [`(https://github.com/BharatDBPG/SHAKTI_PG_ADMIN.git)`](https://github.com/BharatDBPG/SHAKTI_PG_ADMIN.git)
+
+### ChatDB_integrated_pgAdmin
+We have integrated ChatDB into the pgAdmin to let users communicate with their selected database within pgAdmin using natural language. We have provided a separate tool in pgAdmin of ChatDB which works on its own workspace.
+
+Repository Link : [`(https://github.com/BharatDBPG/SHAKTI_PG_ADMIN.git)`](https://github.com/BharatDBPG/SHAKTI_PG_ADMIN.git)
+
 ### `multilingual_fuzzy_match`
 A PostgreSQL extension enabling multilingual fuzzy matching and transliteration for Indian languages. Ideal for use cases such as identity resolution, deduplication, and semantic search across diverse scripts.
 
