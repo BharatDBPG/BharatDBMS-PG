@@ -61,6 +61,9 @@ Built using C and integrated directly into PostgreSQL, this extension provides s
 
 Repository Link : [`(https://github.com/BharatDBPG/Pg_dbscanner.git)`](https://github.com/BharatDBPG/Pg_dbscanner.git)
 
+### 🛠️ `Centralized Bug Tracking Repository`
+Postgres 
+
 ### 📨 Contact
 
 For research collaboration, technical queries, or project access requests, please reach out to:
