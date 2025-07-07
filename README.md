@@ -11,10 +11,6 @@ Welcome to the official repository index for **BharatDB**, a research and develo
 
 ### 🛡 `SHAKTI_PG_ADMIN`
 Shakti pgAdmin is a database management tool that offers local language support for its graphical user interface (GUI), enabling users to interact with PostgreSQL in their native languages. It enhances accessibility and user experience for non-English speaking users.
-
-Repository Link : [`(https://github.com/BharatDBPG/SHAKTI_PG_ADMIN.git)`](https://github.com/BharatDBPG/SHAKTI_PG_ADMIN.git)
-
-### 🛠️ Local Language Integration
 Local language support has been successfully integrated into the application to enhance accessibility and improve user experience for a broader audience. Eight Indian regional languages—Hindi, Kannada, Tamil, Telugu, Marathi, Gujarati, Bengali, and Punjabi—have been added, allowing users to interact with the interface in their native languages. This involved configuring translation settings, managing .po and .mo files, and updating language catalogs to ensure accurate and context-appropriate translations.
 
 Repository Link : [`(https://github.com/BharatDBPG/SHAKTI_PG_ADMIN.git)`](https://github.com/BharatDBPG/SHAKTI_PG_ADMIN.git)
