@@ -11,7 +11,7 @@ Welcome to the official repository index for **BharatDB**, a research and develo
 
 ### 🛡 `SHAKTI_PG_ADMIN`
 Shakti pgAdmin is a database management tool that offers local language support for its graphical user interface (GUI), enabling users to interact with PostgreSQL in their native languages. It enhances accessibility and user experience for non-English speaking users.
-### 🛠️ [`pg_findallclusters`](https://github.com/yourusername/pg_findallclusters)
+### Repository Link : [`[pg_findallclusters](https://github.com/yourusername/pg_findallclusters)`](https://github.com/yourusername/pg_findallclusters)
 
 ### `multilingual_fuzzy_match`
 A PostgreSQL extension enabling multilingual fuzzy matching and transliteration for Indian languages. Ideal for use cases such as identity resolution, deduplication, and semantic search across diverse scripts.
