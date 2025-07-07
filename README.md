@@ -20,7 +20,7 @@ A PostgreSQL extension for image similarity search using AI-based embeddings. In
 
 Repository Link : [`(https://github.com/BharatDBPG/pg_image_similarity.git)`](https://github.com/BharatDBPG/pg_image_similarity.git)
 
-### 🌐🔍`multilingual_fuzzy_match`
+### 🌐`multilingual_fuzzy_match`
 A PostgreSQL extension enabling multilingual fuzzy matching and transliteration for Indian languages. Ideal for use cases such as identity resolution, deduplication, and semantic search across diverse scripts.
 
 Repository Link : [`(https://github.com/BharatDBPG/multilingual_fuzzy_match.git)`](https://github.com/BharatDBPG/multilingual_fuzzy_match.git)
@@ -59,7 +59,7 @@ Repository Link : [`(https://github.com/BharatDBPG/Postgres17.0.git)`](https://g
 Pg_dbscanner is a PostgreSQL extension that analyzes your table schema and intelligently recommends optimal index types based on column data types — helping you boost performance without manual guesswork.
 Built using C and integrated directly into PostgreSQL, this extension provides smart index suggestions for faster query execution, especially on large or growing datasets.
 
-Repository Link : [`(https://github.com/BharatDBPG/Postgres17.0.git)`](https://github.com/BharatDBPG/Postgres17.0.git)
+Repository Link : [`([https://github.com/BharatDBPG/Postgres17.0.git)`](https://github.com/BharatDBPG/Pg_dbscanner.git)
 
 ### 📨 Contact
 
