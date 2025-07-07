@@ -15,45 +15,51 @@ Local language support has been successfully integrated into the application to 
 
 Repository Link : [`(https://github.com/BharatDBPG/SHAKTI_PG_ADMIN.git)`](https://github.com/BharatDBPG/SHAKTI_PG_ADMIN.git)
 
-### 🚀 DB-Boost_first_demo
-DB-Boost is an intelligent, AI-driven optimization platform that automatically tunes your PostgreSQL database configuration parameters to achieve peak performance. DB-Boost adapts to your specific environment—workload patterns, use cases, and hardware specifications—to deliver optimal results every time.
+### 🖼 `pg_image_similarity`
+A PostgreSQL extension for image similarity search using AI-based embeddings. Integrates deep learning models (EfficientNet, CLIP, etc.) with pgvector to support image-based queries directly within SQL.
 
-Repository Link : [`(https://github.com/BharatDBPG/SHAKTI_PG_ADMIN.git)`](https://github.com/BharatDBPG/SHAKTI_PG_ADMIN.git)
-
-### 💬 ChatDB
-An AI enabled chatbot that lets users communicate with their databases in natural languages. It connects with the database and users can seamlessly converse with their database to receive insights and visualization using natural language.
-
-Repository Link : [`(https://github.com/BharatDBPG/SHAKTI_PG_ADMIN.git)`](https://github.com/BharatDBPG/SHAKTI_PG_ADMIN.git)
-
-### 🧩 ChatDB_integrated_pgAdmin
-We have integrated ChatDB into the pgAdmin to let users communicate with their selected database within pgAdmin using natural language. We have provided a separate tool in pgAdmin of ChatDB which works on its own workspace.
-
-Repository Link : [`(https://github.com/BharatDBPG/SHAKTI_PG_ADMIN.git)`](https://github.com/BharatDBPG/SHAKTI_PG_ADMIN.git)
+Repository Link : [`(https://github.com/BharatDBPG/pg_image_similarity.git)`](https://github.com/BharatDBPG/pg_image_similarity.git)
 
 ### 🌐🔍`multilingual_fuzzy_match`
 A PostgreSQL extension enabling multilingual fuzzy matching and transliteration for Indian languages. Ideal for use cases such as identity resolution, deduplication, and semantic search across diverse scripts.
 
 Repository Link : [`(https://github.com/BharatDBPG/multilingual_fuzzy_match.git)`](https://github.com/BharatDBPG/multilingual_fuzzy_match.git)
 
-### 🖼 `pg_image_similarity`
-A PostgreSQL extension for image similarity search using AI-based embeddings. Integrates deep learning models (EfficientNet, CLIP, etc.) with pgvector to support image-based queries directly within SQL.
+### 🛠️ `pg_findallclusters`
+An advanced PostgreSQL cluster discovery script for Debian-based systems. It lists both system-managed and manually configured clusters with detailed info like version, port, role, status, and size. Supports JSON output, detects down clusters, and requires sudo access for full inspection
 
-Repository Link : [`(https://github.com/BharatDBPG/pg_image_similarity.git)`](https://github.com/BharatDBPG/pg_image_similarity.git)
-
-### 🧪 `Postgres17.0`
-Internal fork of PostgreSQL 17.0 used for testing custom patches, extension development, and experimentation with features such as logical replication, phonetic search, and image/vector indexing.
-
-Repository Link : [`(https://github.com/BharatDBPG/Postgres17.0.git)`](https://github.com/BharatDBPG/Postgres17.0.git)
+Repository Link : [`(https://github.com/BharatDBPG/Enhancement_Debian_Postgres_pg_lsclusters.git)`](https://github.com/BharatDBPG/Enhancement_Debian_Postgres_pg_lsclusters.git)
 
 ### 🔐 `key_rotation_dashboard`
 A full-stack app built with Node.js, Express, PostgreSQL, and React to manage secure and automated key rotation. It features scheduled key generation using node-cron. The frontend offers a clean dashboard to monitor and trigger rotations.
 
 Repository Link : [`(https://github.com/BharatDBPG/PG_Sodium_Key_Rotation_Dashboard.git)`](https://github.com/BharatDBPG/PG_Sodium_Key_Rotation_Dashboard.git)
 
-### 🛠️ `pg_findallclusters`
-An advanced PostgreSQL cluster discovery script for Debian-based systems. It lists both system-managed and manually configured clusters with detailed info like version, port, role, status, and size. Supports JSON output, detects down clusters, and requires sudo access for full inspection
+### 💬 ChatDB
+An AI enabled chatbot that lets users communicate with their databases in natural languages. It connects with the database and users can seamlessly converse with their database to receive insights and visualization using natural language.
 
-Repository Link : [`(https://github.com/BharatDBPG/Enhancement_Debian_Postgres_pg_lsclusters.git)`](https://github.com/BharatDBPG/Enhancement_Debian_Postgres_pg_lsclusters.git)
+Repository Link : [`(https://github.com/BharatDBPG/ChatDB.git))`](https://github.com/BharatDBPG/ChatDB.git)
+
+### 🧩 ChatDB_integrated_pgAdmin
+We have integrated ChatDB into the pgAdmin to let users communicate with their selected database within pgAdmin using natural language. We have provided a separate tool in pgAdmin of ChatDB which works on its own workspace.
+
+Repository Link : [`(https://github.com/BharatDBPG/ChatDB_integrated_pgAdmin.git)`](https://github.com/BharatDBPG/ChatDB_integrated_pgAdmin.git)
+
+### 🚀 DB-Boost_first_demo
+DB-Boost is an intelligent, AI-driven optimization platform that automatically tunes your PostgreSQL database configuration parameters to achieve peak performance. DB-Boost adapts to your specific environment—workload patterns, use cases, and hardware specifications—to deliver optimal results every time.
+
+Repository Link : [`(https://github.com/BharatDBPG/DB-Boost_first_demo.git)'](https://github.com/BharatDBPG/DB-Boost_first_demo.git)
+
+### 🧪 `Postgres17.0`
+Internal fork of PostgreSQL 17.0 used for testing custom patches, extension development, and experimentation with features such as logical replication, phonetic search, and image/vector indexing.
+
+Repository Link : [`(https://github.com/BharatDBPG/Postgres17.0.git)`](https://github.com/BharatDBPG/Postgres17.0.git)
+
+### 🛠️ `Pg_dbscanner`
+Pg_dbscanner is a PostgreSQL extension that analyzes your table schema and intelligently recommends optimal index types based on column data types — helping you boost performance without manual guesswork.
+Built using C and integrated directly into PostgreSQL, this extension provides smart index suggestions for faster query execution, especially on large or growing datasets.
+
+Repository Link : [`(https://github.com/BharatDBPG/Postgres17.0.git)`](https://github.com/BharatDBPG/Postgres17.0.git)
 
 ### 📨 Contact
 
