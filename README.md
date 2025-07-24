@@ -62,7 +62,7 @@ Built using C and integrated directly into PostgreSQL, this extension provides s
 Repository Link : [`(https://github.com/BharatDBPG/Pg_dbscanner.git)`](https://github.com/BharatDBPG/Pg_dbscanner.git)
 
 ### 🛠️ `Centralized Bug Tracking Repository`
-Centralized Postgres Repository for Bug Tracking - Open , Closed Bugs.
+Centralized Postgres Repository for Bug Tracking is a postgres community approved centralized bug reporting and tracking repo with open and closed bug flags.
 
 ### 📨 Contact
 
