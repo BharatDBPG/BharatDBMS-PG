@@ -15,8 +15,8 @@ Local language support has been successfully integrated into the application to 
 
 Repository Link : [`(https://github.com/BharatDBPG/SHAKTI_PG_ADMIN.git)`](https://github.com/BharatDBPG/SHAKTI_PG_ADMIN.git)
 
-### 🖼 `pg_image_similarity`
-A PostgreSQL extension for image similarity search using AI-based embeddings. Integrates deep learning models (EfficientNet, CLIP, etc.) with pgvector to support image-based queries directly within SQL.
+### 🖼 `ai_image_search`
+A PostgreSQL extension for image similarity search using AI-based embeddings. Integrates deep learning model with pgvector to support image-based queries directly within SQL.
 
 Repository Link : [`(https://github.com/BharatDBPG/pg_image_similarity.git)`](https://github.com/BharatDBPG/pg_image_similarity.git)
 
@@ -45,7 +45,7 @@ We have integrated ChatDB into the pgAdmin to let users communicate with their s
 
 Repository Link : [`(https://github.com/BharatDBPG/ChatDB_integrated_pgAdmin.git)`](https://github.com/BharatDBPG/ChatDB_integrated_pgAdmin.git)
 
-### 🚀 DB-Boost_first_demo
+### 🚀 DB-Boost
 DB-Boost is an intelligent, AI-driven optimization platform that automatically tunes your PostgreSQL database configuration parameters to achieve peak performance. DB-Boost adapts to your specific environment—workload patterns, use cases, and hardware specifications—to deliver optimal results every time.
 
 Repository Link : [`(https://github.com/BharatDBPG/DB-Boost_first_demo.git)'](https://github.com/BharatDBPG/DB-Boost_first_demo.git)
@@ -61,8 +61,34 @@ Built using C and integrated directly into PostgreSQL, this extension provides s
 
 Repository Link : [`(https://github.com/BharatDBPG/Pg_dbscanner.git)`](https://github.com/BharatDBPG/Pg_dbscanner.git)
 
+### 🧪 Secora - PostgreSQL Security Assessment Tool
+Secora is a tool that automates PostgreSQL security evaluations with 67 checks across 8 categories, providing real-time monitoring, compliance reporting, and remediation guidance through a dashboard. It uses a parent-child database structure to organize rules and track results, helping organizations maintain security posture with minimal effort.
+Key Categories & Checks:
+Connection & Login: SSL enforcement, password encryption, authentication timeouts
+User Access: Superuser limits, privilege restrictions, row-level security
+Logging & Auditing: Connection logging, statement logging, pgAudit status
+File Permissions: PGDATA access, config file permissions, unauthorized files
+Currently implementing a rule-based approach, starting with connection and security categories, and have documented the parameters to be used.
+
 ### 🛠️ `Centralized Bug Tracking Repository`
 Centralized Postgres Repository for Bug Tracking is a postgres community approved centralized bug reporting and tracking repo with open and closed bug flags.
+
+### 🛠️ `Bug Identification and Monitoring`
+****Bug 1:** Proper Object Locking for GRANT/REVOKE**
+Problem Statement  :In Postgres 18, executing GRANT or REVOKE can cause confusing internal errors if the object is concurrently dropped or altered. Using AccessSharLock helps to some extent, but it still allows concurrent DDL operations, which leads to issues.
+Work Done:
+Code modifications :  Replaced AccessShareLock with ShareUpdateExclusiveLock  to prevent concurrent DDL and ensure proper locking. This lock works well for avoiding DDL conflicts, but it also blocks background tasks like autovacuum, which is not desirable.
+Performing isolation tests on both lock types using various test cases to evaluate which one offers better efficiency and correctness.
+
+**Bug2 : VM corruption on standby**
+Problem Statement: The bug is about postgreSQL's visibility map (VM) and how it can get corrupted on a standby server under certain crash conditions.
+Work Done:
+Bug Reproduced and Identified core files related to the bug.
+
+### 🛠️ `Oracle Migration GUI`
+
+### 🛠️ `Oracle Migration GUI`
+
 
 ### 📨 Contact
 
