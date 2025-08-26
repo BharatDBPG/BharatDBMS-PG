@@ -64,31 +64,32 @@ Repository Link : [`(https://github.com/BharatDBPG/Pg_dbscanner.git)`](https://g
 ### 🧪 Secora - PostgreSQL Security Assessment Tool
 Secora is a tool that automates PostgreSQL security evaluations with 67 checks across 8 categories, providing real-time monitoring, compliance reporting, and remediation guidance through a dashboard. It uses a parent-child database structure to organize rules and track results, helping organizations maintain security posture with minimal effort.
 Key Categories & Checks:
-Connection & Login: SSL enforcement, password encryption, authentication timeouts
-User Access: Superuser limits, privilege restrictions, row-level security
-Logging & Auditing: Connection logging, statement logging, pgAudit status
-File Permissions: PGDATA access, config file permissions, unauthorized files
-Currently implementing a rule-based approach, starting with connection and security categories, and have documented the parameters to be used.
+- Connection & Login: SSL enforcement, password encryption, authentication timeouts
+- User Access: Superuser limits, privilege restrictions, row-level security
+- Logging & Auditing: Connection logging, statement logging, pgAudit status
+- File Permissions: PGDATA access, config file permissions, unauthorized files
+- Currently implementing a rule-based approach, starting with connection and security categories, and have documented the parameters to be used.
 
 ### 🛠️ `Centralized Bug Tracking Repository`
 Centralized Postgres Repository for Bug Tracking is a postgres community approved centralized bug reporting and tracking repo with open and closed bug flags.
 
 ### 🛠️ `Bug Identification and Monitoring`
 ****Bug 1:** Proper Object Locking for GRANT/REVOKE**
-Problem Statement  :In Postgres 18, executing GRANT or REVOKE can cause confusing internal errors if the object is concurrently dropped or altered. Using AccessSharLock helps to some extent, but it still allows concurrent DDL operations, which leads to issues.
+**Problem Statement ** :In Postgres 18, executing GRANT or REVOKE can cause confusing internal errors if the object is concurrently dropped or altered. Using AccessSharLock helps to some extent, but it still allows concurrent DDL operations, which leads to issues.
 Work Done:
-Code modifications :  Replaced AccessShareLock with ShareUpdateExclusiveLock  to prevent concurrent DDL and ensure proper locking. This lock works well for avoiding DDL conflicts, but it also blocks background tasks like autovacuum, which is not desirable.
+**Code modifications :**  Replaced AccessShareLock with ShareUpdateExclusiveLock  to prevent concurrent DDL and ensure proper locking. This lock works well for avoiding DDL conflicts, but it also blocks background tasks like autovacuum, which is not desirable.
 Performing isolation tests on both lock types using various test cases to evaluate which one offers better efficiency and correctness.
 
 **Bug2 : VM corruption on standby**
-Problem Statement: The bug is about postgreSQL's visibility map (VM) and how it can get corrupted on a standby server under certain crash conditions.
-Work Done:
+**Problem Statement: **The bug is about postgreSQL's visibility map (VM) and how it can get corrupted on a standby server under certain crash conditions.
+**Work Done:**
 Bug Reproduced and Identified core files related to the bug.
 
-### 🛠️ `Oracle Migration GUI`
+### 🛠️ `ORACLE_TO_PG_MIGRATION_GUI'
+Oracle to PostgreSQL Migration GUI is a database migration tool designed to simplify the transfer of database objects from Oracle to PostgreSQL. It enhances efficiency and accuracy in database migration tasks. The migration process supports tables, views, sequences, constraints, and keys, ensuring all objects are transferred correctly. The tool provides a seamless and user-friendly interface for managing and verifying the migration process.
 
-### 🛠️ `Oracle Migration GUI`
-
+### 🛠️ ` POSTGIS_GEOVIEWER'
+PostGIS GeoViewer is a geospatial visualization tool that enables interactive filtering of map data. A country dropdown has been added in the geometry viewer, allowing users to select a country and instantly filter the map view accordingly. This feature enhances data exploration and spatial analysis by providing dynamic, real-time updates on the map. The implementation ensures a smooth and intuitive user experience for geospatial data interaction.
 
 ### 📨 Contact
 
