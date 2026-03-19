@@ -70,8 +70,8 @@ Key Categories & Checks:
 - File Permissions: PGDATA access, config file permissions, unauthorized files
 - Currently implementing a rule-based approach, starting with connection and security categories, and have documented the parameters to be used.
 
-### 🛠️ `Centralized Bug Tracking Repository`
-Centralized Postgres Repository for Bug Tracking is a postgres community approved centralized bug reporting and tracking repo with open and closed bug flags.
+### 🛠️ `Automated Centralized Bug Tracking Repository`
+Automated centralized GitHub repository for PostgreSQL bugs by scraping the pgsql-bugs mailing list. It processes and groups related messages into threads, performs analysis, and classifies each bug’s status. The system categorizes issues into **Open, Closed, or Inactive** states based on content and activity. Data is stored in MongoDB and synchronized with GitHub Issues for continuous updates. The goal is to provide a unified platform for efficient bug tracking and analysis.
 
 ### 🛠️ `Bug Identification and Monitoring`
 ****Bug 1:** Proper Object Locking for GRANT/REVOKE**
