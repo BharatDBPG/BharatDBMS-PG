@@ -15,10 +15,15 @@ Local language support has been successfully integrated into the application to 
 
 Repository Link : [`(https://github.com/BharatDBPG/SHAKTI_PG_ADMIN.git)`](https://github.com/BharatDBPG/SHAKTI_PG_ADMIN.git)
 
-### 🖼 `ai_image_search`
+### 🔍 `ai_image_search`
 A PostgreSQL extension for image similarity search using AI-based embeddings. Integrates deep learning model with pgvector to support image-based queries directly within SQL.
 
 Repository Link : [`(https://github.com/BharatDBPG/pg_image_similarity.git)`](https://github.com/BharatDBPG/pg_image_similarity.git)
+
+🖼 ai_image_detector
+A full-stack application designed to identify and classify AI-generated images. It combines a modern React frontend with a deep learning backend to detect synthetic visual content using specialized neural network models.
+
+Repository Link : (https://github.com/BharatDBPG/ai_image_detector.git)
 
 ### 🌐`multilingual_fuzzy_match`
 A PostgreSQL extension enabling multilingual fuzzy matching and transliteration for Indian languages. Ideal for use cases such as identity resolution, deduplication, and semantic search across diverse scripts.
